@@ -1,0 +1,414 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+/* Generic Styles */
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+h2{
+  border-bottom: 2px solid #333;
+}
+
+span {
+  padding: 5px;
+}
+/* Header */
+.header-info{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.header-info h1{
+  font-size: 160px;
+  line-height:0.9;
+  margin:0;
+  display:inline;
+}
+
+.header-info h2{
+  color: #09c;
+  margin:0;
+  font-size:38px;
+  border-bottom:none;
+  margin-bottom: 5px;
+  
+}
+.header-info .welcome-message{
+  background: #09c;
+  color: #fff;
+  padding: 5px 10px;
+}
+.first-name{
+  font-weight:700;
+}
+.last-name{
+  font-weight:300;
+}
+
+/* Top Contact */
+#topContacts h2{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
+  text-align:right;
+  padding-right:0;
+  font-weight:700;
+  border-bottom: 2px solid #333;
+}
+
+#topContacts ul{
+  float: right;
+  font-size: 16px;
+  list-style-type:none;
+}
+
+#topContacts ul li{
+  border-bottom: 1px solid #333;
+  padding:5px 0;
+}
+
+#topContacts ul li > span{
+  padding-right:20px;
+}
+
+/* Skills */
+.skills-chart-holder{
+  width:100%;
+  text-align: center;
+}
+#skills-list{
+  margin: 20px 0;
+  text-align: center;
+}
+#skills-list .label{
+  margin: 5px;
+}
+#skills-list .red{
+  background-color: #FF5A5E;
+}
+#skills-list .orange{
+  background-color: #f06613;
+}
+#skills-list .green{
+  background-color: #46BFBD;
+}
+#skills-list .darker-green{
+  background-color: #23582b;
+}
+#skills-list .yellow{
+  background-color: #FDB45C;
+}
+#skills-list .gray{
+  background-color: #A8B3C5;
+}
+#skills-list .darker-gray{
+  background-color: #616774;
+}
+
+/* Education, Work and Project*/
+.education-entry, .work-entry, .project-entry {
+  margin: 15px 0;
+}
+
+.entry-name,
+.entry-location{
+  font-size: 18px;
+  color:#09c;
+}
+span.entry-name,
+span.entry-location{
+  padding: 0;
+}
+.entry-name a{
+  color: #09c;
+  display:inline-block;
+  margin:0;
+}
+.entry-title{
+  font-size: 24px;
+}
+.entry-date{
+  font-size: 14px;
+}
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  float: right;
+
+}
+.education-entry a{
+  display:inline-block;
+  margin:0;
+}
+.project-entry .entry-date{
+  color:#09c;
+}
+
+.project-entry .btn,
+#skills-list .label{
+  border-radius:0;
+}
+
+.project-entry .btn{
+  margin: 5px;
+}
+
+.project-entry .btn-info{
+  background: #09c;
+  border:0;
+}
+
+.project-entry .btn-info:hover,
+.project-entry .btn-info:focus,
+.project-entry .btn-info:active{
+  background: #14A7D8;
+}
+/* Languages and Maps */
+.progress{
+  border-radius: 0;
+}
+
+#map {
+  display: block;
+  height: 100%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  .header-info{
+    text-align: center;
+  }
+  .header-info h1{
+    font-size: 100px;
+  } 
+  .header-info h2{
+    font-size: 24px;
+  }
+  .header-info .welcome-message{
+    margin: 0 auto;
+  }
+  #topContacts{
+    float: left;
+  }
+  #topContacts h2{
+    text-align: left;
+  }
+
+  #topContacts ul li{
+    display: inline-block;
+    border-bottom: none;
+    padding: 5px;
+  }
+  #topContacts ul li span{
+    margin: 0;
+    padding-right: 5px;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  .header-info{
+    text-align: center;
+  }
+  .header-info h1{
+    font-size: 100px;
+  } 
+  .header-info h2{
+    font-size: 24px;
+  }
+  .header-info .welcome-message{
+    width: 445px;
+    margin: 0 auto;
+  }
+  #topContacts{
+    float: left;
+  }
+  #topContacts h2{
+    text-align: left;
+  }
+
+  #topContacts ul li{
+    display: inline-block;
+    border-bottom: none;
+    padding: 5px;
+  }
+  #topContacts ul li span{
+    margin: 0;
+    padding-right: 5px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+  .header-info{
+    text-align: center;
+  }
+  .header-info h1{
+    font-size: 130px;
+  } 
+  .header-info h2{
+    font-size: 31px;
+  }
+  .header-info .welcome-message{
+    width: 500px;
+    margin: 0 auto;
+  }
+  #topContacts{
+    float: left;
+  }
+  #topContacts h2{
+    text-align: left;
+  }
+
+  #topContacts ul li{
+    display: inline-block;
+    border-bottom: none;
+    padding: 5px;
+  }
+  #topContacts ul li span{
+    margin: 0;
+    padding-right: 5px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .header-info{
+    text-align: left;
+  }
+  .header-info h1{
+    font-size: 130px;
+  } 
+  .header-info h2{
+    font-size: 31px;
+  }
+  .header-info .welcome-message{
+    width: 100%;
+  }
+  #topContacts{
+    float: right;
+  }
+  #topContacts h2{
+    text-align: right;
+  }
+  #topContacts ul li{
+    display: block;
+    border-bottom: 1px solid #333;
+    padding: 5px 0;
+  }
+  #topContacts ul li span{
+    padding-right:20px;
+  }
+  
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .header-info{
+    text-align: left;
+  }
+  .header-info h1{
+    font-size: 160px;
+  } 
+  .header-info h2{
+    font-size: 38px;
+  }
+  .header-info .welcome-message{
+    width: 100%;
+  }
+  #topContacts{
+    float: right;
+  }
+  #topContacts h2{
+    text-align: right;
+  }
+  #topContacts ul li{
+    display: block;
+    border-bottom: 1px solid #333;
+    padding: 5px 0;
+  }
+  #topContacts ul li span{
+    padding-right:20px;
+  }
+}
+
+/* Project Progress Chart Style */
+
+/**
+ Copyright (c) 2014 BrightPoint Consulting, Inc.
+
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation
+ files (the "Software"), to deal in the Software without
+ restriction, including without limitation the rights to use,
+ copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following
+ conditions:
+
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+.background {
+    fill: #FFFFFF;
+    fill-opacity: 0.01;
+}
+
+.component {
+    fill: #ccc;
+}
+
+.component .label {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-weight: 300;
+    text-anchor: middle;
+    fill: #09c;
+}
+
+.arc {
+    stroke-weight:0.01;
+    fill: #333;
+}
+
+.label {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-weight: 300;
+    text-anchor: middle;
+}
+
+.radial-svg {
+    display: block;
+    margin: 0 auto;
+}
+
+/* end Project Progress Chart Style */
+
+

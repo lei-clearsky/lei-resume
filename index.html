@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Lei's Resume</title>
+    <!--CSS-->
+    <link href="css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/style-new.css" rel="stylesheet" type="text/css" />
+    <!--JS-->
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/helper.js"></script>
+    <!-- Chart.js -->
+    <script src="js/Chart.js"></script>
+    <script type="text/javascript" src="js/d3.min.js"></script>
+    <script type="text/javascript" src="js/radialProgress.js"></script>
+    <!--Google Maps-->
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script> 
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <!--Header Info: name, role and welcome message-->
+          <div id="header" class="header-info">                 
+          </div>
+        </div>
+        <div class="col-md-6">
+          <!--Top Contact Info: phone, email, address and etc-->
+          <div id="topContacts">
+            <h2><span class="glyphicon glyphicon-plus"></span>CONTACT</h2>
+            <ul class="contact-list"></ul>
+          </div>
+          </div>
+      </div><!---end 1st row-->
+
+      <div class="row">
+        <div class="col-md-6">
+          <!--Skills Info: list of skills and skills chart-->
+          <h2 class="text-left"><span class="glyphicon glyphicon-wrench"></span>SKILLS</h2>
+          <!--List of Skills-->
+          <div id ="skills-list">
+          </div>
+          <!--Skills Chart-->
+          <div id="skills-chart-holder" class="text-center skills-chart-holder">
+            <canvas id="skills-chart" width="300" height="300"></canvas>         
+          </div>
+          <!--Education Info: list of education and online courses-->
+          <div id="education">
+            <h2><span class="glyphicon glyphicon-book"></span>EDUCATION</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <!--Work Experience Info: list of work experiences-->
+          <div id="workExperience">
+            <h2><span class="glyphicon glyphicon-briefcase"></span>WORK EXPERIENCE</h2>
+          </div>
+        </div>
+      </div><!-- end 2nd row -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <!--Project Info: list of projects and progress chart-->
+          <div id="projects">
+            <h2><span class="glyphicon glyphicon-file"></span>PROJECTS</h2>
+          </div>
+        </div>
+      </div><!-- end 3rd row -->
+      <div class="row">
+        <div class="col-md-3">
+          <!--Languages Info-->
+          <h2><span class="glyphicon glyphicon-globe"></span>Languages</h2>
+          <h3>Mandarin</h3>
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+              <span>Native or bilingual proficiency</span>
+            </div>
+          </div>
+          <h3>English</h3>
+          <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+              <span>Full professional proficiency</span>
+            </div>
+          </div>
+          <!--Awards Info-->
+          <h2><span class="glyphicon glyphicon-star"></span>Awards</h2>
+
+          <p>Champion of the Beijing University of Aeronautics and Astronautics College Women's Tennis Tournament, 2004</p>
+          <p>Fifth place in the Tsinghua University Tennis Tournament, 2006</p>
+          
+        </div>
+        <div class="col-md-9">
+          <div id="mapDiv">
+            <h2><span class="glyphicon glyphicon-map-marker"></span>Where I've Lived and Worked</h2>
+          </div>
+        </div>
+
+      </div><!--end 4th row-->
+      <div class="row">
+        <hr>
+      </div><!--end 5th row-->
+    </div><!--end main container-->
+
+    <script src="js/resumeBuilder.js"></script>
+
+  </body>
+</html>
