@@ -1,5 +1,5 @@
 <h1>Resume</h1>
-<p>resume project for Udacity Front End Web Development Nanodegree</p>
+<p>My Resume - built with jQuery, JSON, Chart.js, D3 and Bootstrap</p>
 <p><a href="http://lei-clearsky.github.io/lei-resume/">Demo</a></p>
 
 <h1>References</h1>
