@@ -1,6 +1,6 @@
 <h1>Resume</h1>
 <p>resume project for Udacity Front End Web Development Nanodegree</p>
-<p><a href="http://lei-clearsky.github.io/nanodegree-fewd-p2/">Demo</a></p>
+<p><a href="http://lei-clearsky.github.io/lei-resume/">Demo</a></p>
 
 <h1>References</h1>
 <ul>
