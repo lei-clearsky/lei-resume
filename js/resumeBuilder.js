@@ -44,9 +44,9 @@ work.display = function(){
 var projects = {
 	"projects": [
 		{
-			"title": "nDock",
+			"title": "Visual UI Test Automation",
 			"date worked": "June, 2015 - Present",
-			"description": "An automatic website UI testing and monitoring service built with NightmareJS, gm, node-cron and MEAN stack",
+			"description": "An automatic visual UI testing and monitoring service built with NightmareJS, gm, node-cron and MEAN stack",
 			"image": "http://lei-clearsky.github.io/images/1.jpg",
 			"github": "https://github.com/lei-clearsky/doraemon",
 			"progress": 80
@@ -338,6 +338,13 @@ var polarData = [
     highlight: "#A8B3C5",
     label: "Git",
     labelcolor: "darker-green"
+  },
+  {
+    value: 5,
+    color: "#4D5360",
+    highlight: "#616774",
+    label: "Sass",
+    labelcolor: "darker-gray"
   }
 
   ];
