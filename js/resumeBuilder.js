@@ -4,7 +4,7 @@ var work = {
 	"jobs":[
 		{
 			"employer": "College of Saint Elizabeth",
-			"title": "Junior Front-End Web Developer",
+			"title": "Front-End Web Developer",
 			"location": "Morristown, NJ",
 			"dates": "2013 - Present",
 			"description": "Perform complete life cycle development of front-end web development, with an emphasis on the requirements gathering, planning, analysis, testing, and acceptance phases for assigned projects. Work with Graphic Designer and Webmaster to translate wireframe designs into code using standards-compliant dynamic HTML5 and CSS3; utilize approved software development platforms, methodologies, tools and languages (JavaScript, Velocity etc.) to create and manage customized web projects. Maintain all CSE websites and applications; provide management with updates regarding the status of web-related projects, and participate in discussions and meetings regarding web related projects."
@@ -44,6 +44,49 @@ work.display = function(){
 var projects = {
 	"projects": [
 		{
+			"title": "nDock",
+			"date worked": "June, 2015 - Present",
+			"description": "An automatic website UI testing and monitoring service built with NightmareJS, gm, node-cron and MEAN stack",
+			"image": "http://lei-clearsky.github.io/images/1.jpg",
+			"github": "https://github.com/lei-clearsky/doraemon",
+			"progress": 80
+		},
+		{
+			"title": "nDock",
+			"date worked": "May, 2015",
+			"description": "A real-time bulletin board that can be used for brainstorming ideas. This app is built with AngularJS, Socket.io, Node.js, Express and MongoDB.",
+			"image": "http://lei-clearsky.github.io/images/1.jpg",
+			"github": "https://github.com/nogever/stackathon",
+			"demo": "https://ndock.herokuapp.com/",
+			"progress": 100
+		},
+		{
+			"title": "Cafestack",
+			"date worked": "Apr, 2015",
+			"description": "An E-Commerce web application built with Bootstrap, MongoDB, ExpressJS, AngularJS and NodeJS",
+			"image": "http://lei-clearsky.github.io/images/1.jpg",
+			"github": "https://github.com/pdedes/stack_store",
+			"demo": "https://cafestack.herokuapp.com/",
+			"progress": 100
+		},
+		{
+			"title": "Trip Planner",
+			"date worked": "March, 2015",
+			"description": "A trip planning app in NYC built with jQuery, Node.js, Express and MongoDB",
+			"image": "http://lei-clearsky.github.io/images/1.jpg",
+			"github": "https://github.com/lei-clearsky/tripplanner-persistence",
+			"progress": 100
+		},
+		{
+			"title": "Game of Life in JS",
+			"date worked": "Feb, 2015",
+			"description": "Conway's Game of Life Javascript Implementation",
+			"image": "http://lei-clearsky.github.io/images/1.jpg",
+			"github": "https://github.com/lei-clearsky/FS-Game-of-Life",
+			"demo": "http://lei-clearsky.github.io/FS-Game-of-Life/",
+			"progress": 100
+		},
+		{
 			"title": "Neighborhood Map",
 			"date worked": "Dec, 2014 - Jan, 2015",
 			"description": "Neighborhood Map project for Udacity Front-end Web Development Nanodegree",
@@ -71,29 +114,12 @@ var projects = {
 			"progress": 100
 		},
 		{
-			"title": "Lazy Recipe",
-			"date worked": "Oct, 2013 - Dec, 2013",
-			"description": "My first Rails project. Search recipes by ingredients, ingredients are sorted from the least to the most.",
-			"image": "http://lei-clearsky.github.io/images/2.jpg",
-			"github": "https://github.com/lei-clearsky/search-recipes-app",
-			"demo": "http://powerful-wildwood-2510.herokuapp.com/",
-			"progress": 100
-		},
-		{
 			"title": "Mu Theta At Large",
 			"date worked": "Jul, 2014 - Aug, 2014",
 			"description": "My first WordPress project. Redesigned a new resonsive WordPress theme and converted a flash based site",
 			"image": "http://lei-clearsky.github.io/images/3.jpg",
 			"github": "https://github.com/lei-clearsky/muthetaatlarge/tree/master/wp-content/themes/mtal",
 			"demo": "http://muthetaatlarge.org/",
-			"progress": 100
-		},
-		{
-			"title": "FIFA Matches",
-			"date worked": "Sept, 2014 - Oct, 2014",
-			"description": "A drag and drop FIFA soccer game. Drag and drop the coutry icons and output and retrive result through a generated json object.",
-			"image": "http://lei-clearsky.github.io/images/4.jpg",
-			"github": "https://github.com/lei-clearsky/WWC-project-fifa",
 			"progress": 100
 		},
 		{
@@ -105,20 +131,21 @@ var projects = {
 			"progress": 90
 		},
 		{
+			"title": "Lazy Recipe",
+			"date worked": "Oct, 2013 - Dec, 2013",
+			"description": "My first Rails project. Search recipes by ingredients, ingredients are sorted from the least to the most.",
+			"image": "http://lei-clearsky.github.io/images/2.jpg",
+			"github": "https://github.com/lei-clearsky/search-recipes-app",
+			"demo": "http://powerful-wildwood-2510.herokuapp.com/",
+			"progress": 100
+		},
+		{
 			"title": "CSE Official Website",
 			"date worked": "July, 2013 - Present",
 			"description": "I redesigned and created the front-end of the College of Saint Elizabeth's official website. The previous site is in Flash.",
 			"image": "http://lei-clearsky.github.io/images/6.jpg",
 			"demo": "http://www.cse.edu/",
 			"progress": 100
-		},
-		{
-			"title": "CSE WordPress Intranet",
-			"date worked": "Jul, 2014 - Sept, 2014",
-			"description": "Converted College of Saint Elizabeth website to a WordPress site with custom theme and widgets",
-			"image": "http://lei-clearsky.github.io/images/1.jpg",
-			"github": "https://github.com/lei-clearsky/wp-theme-and-plugin/tree/master/wp-content/themes/college",
-			"progress": 80
 		}
 	]
 
@@ -168,13 +195,12 @@ var bio = {
 	"bio pic": "https://lh3.googleusercontent.com/-SBN15tcmbC8/UkCdJGCGHOI/AAAAAAAAAVE/Gjs_4zrqmfY/w140-h140-p/LeiZ.JPG",
 	"contacts": 
 		{
-			"mobile number": "000-000-0000",
 			"email": "lei.clearsky@gmail.com",
 			"github username": "lei-clearsky",
 			"twitter handle": "@LeiZhuish",
 			"location": "New York, NY"
 		},
-	"skills": ["HTML", "CSS", "Javascript", "JQuery", "PHP", "MySQL", "WordPress"]
+	"skills": ["HTML", "CSS", "Javascript", "JQuery", "Angular", "PHP", "MySQL", "WordPress"]
 
 };
 bio.display = function(){
@@ -204,6 +230,13 @@ bio.display = function(){
 //Education JSON
 var education = {
 	"schools": [
+		{
+			"name": "Fullstack Academy",
+			"location": "New York, NY",
+			"majors": ["Flex Immersive Full Stack Web Development"],
+			"dates": "June 2015",
+			"url": "http://www.fullstackacademy.com/flex-immersive"
+		},
 		{
 			"name": "Northern State University",
 			"location": "Aberdeen, SD",
@@ -279,17 +312,17 @@ var polarData = [
     labelcolor: "orange"
   },
   {
-    value: 7,
+    value: 8,
     color: "#46BFBD",
     highlight: "#5AD3D1",
     label: "Javascript",
     labelcolor: "green"
   },
   {
-    value: 4,
+    value: 6,
     color: "#FDB45C",
     highlight: "#FFC870",
-    label: "PHP",
+    label: "MEAN stack",
     labelcolor: "yellow"
   },
   {
@@ -300,18 +333,11 @@ var polarData = [
     labelcolor: "gray"
   },
   {
-    value: 5,
+    value: 6,
     color: "#23582b",
     highlight: "#A8B3C5",
     label: "Git",
     labelcolor: "darker-green"
-  },
-  {
-    value: 3,
-    color: "#4D5360",
-    highlight: "#616774",
-    label: "MySQL",
-    labelcolor: "darker-gray"
   }
 
   ];
