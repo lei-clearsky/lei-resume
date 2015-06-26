@@ -151,6 +151,9 @@ span.entry-location{
   display:inline-block;
   margin:0;
 }
+.project-entry {
+  height: 350px;
+}
 .project-entry .entry-date{
   color:#09c;
 }
@@ -174,6 +177,7 @@ span.entry-location{
 .project-entry .btn-info:active{
   background: #14A7D8;
 }
+
 /* Languages and Maps */
 .progress{
   border-radius: 0;

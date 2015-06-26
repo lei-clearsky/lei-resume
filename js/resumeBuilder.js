@@ -207,7 +207,6 @@ bio.display = function(){
 	var formattedFName = HTMLheaderFName.replace("%data%", bio["first name"].toUpperCase());
 	var formattedLName = HTMLheaderLName.replace("%data%", bio["last name"].toUpperCase());
 	var formattedRole = HTMLheaderRole.replace("%data%", bio.role.toUpperCase());
-	var formattedMobile = HTMLmobile.replace("%data%", bio.contacts["mobile number"]);
 	var formattedEmail = HTMLemail.replace("%data%", bio.contacts["email"]);
 	var formattedGithub = HTMLgithub.replace("%data%", bio.contacts["github username"]);
 	var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts["twitter handle"]);
