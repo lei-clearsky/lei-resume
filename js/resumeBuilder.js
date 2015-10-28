@@ -3,10 +3,17 @@
 var work = {
 	"jobs":[
 		{
+			"employer": "HBC Digital",
+			"title": "Front-End Web Developer",
+			"location": "New York, NY",
+			"dates": "2015 - Present",
+			"description": "All things front-end related."
+		},
+		{
 			"employer": "College of Saint Elizabeth",
 			"title": "Front-End Web Developer",
 			"location": "Morristown, NJ",
-			"dates": "2013 - Present",
+			"dates": "2013 - 2015",
 			"description": "Perform complete life cycle development of front-end web development, with an emphasis on the requirements gathering, planning, analysis, testing, and acceptance phases for assigned projects. Work with Graphic Designer and Webmaster to translate wireframe designs into code using standards-compliant dynamic HTML5 and CSS3; utilize approved software development platforms, methodologies, tools and languages (JavaScript, Velocity etc.) to create and manage customized web projects. Maintain all CSE websites and applications; provide management with updates regarding the status of web-related projects, and participate in discussions and meetings regarding web related projects."
 		},
 		{
@@ -190,14 +197,14 @@ projects.progressChart = function(d3Div, progressDiv, project, container, value)
 var bio = {
 	"first name": "Lei",
 	"last name": "Zhu",
-	"role": "Full-Stack Web Developer",
-	"welcome message": "I'm passionate about web design and web development, and am currently working as a junior web developer. Feel free to check out my Github repositories and demo projects. You can also find me on Linkedin and Twitter.",
+	"role": "Front-End Web Developer",
+	"welcome message": "I'm passionate about web design and web development, and am currently working as a Front-End web developer. Feel free to check out my Github repositories and demo projects. You can also find me on Linkedin and Twitter.",
 	"bio pic": "https://lh3.googleusercontent.com/-SBN15tcmbC8/UkCdJGCGHOI/AAAAAAAAAVE/Gjs_4zrqmfY/w140-h140-p/LeiZ.JPG",
 	"contacts": 
 		{
 			"email": "lei.clearsky@gmail.com",
 			"github username": "lei-clearsky",
-			"twitter handle": "@LeiZhuish",
+			"twitter handle": "@lei_clearsky",
 			"location": "New York, NY"
 		},
 	"skills": ["HTML", "CSS", "Javascript", "JQuery", "Angular", "PHP", "MySQL", "WordPress"]
